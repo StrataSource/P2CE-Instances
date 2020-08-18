@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "254"
+	"editorbuild" "8696"
+	"mapversion" "255"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -50,7 +50,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "254"
+	"mapversion" "255"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -4423,7 +4423,7 @@ entity
 	"classname" "logic_script"
 	"angles" "0 0 0"
 	"targetname" "video_script"
-	"vscripts" "revolution/elevator_videos/video_splitter.nut"
+	"vscripts" "p2ce/elevator_videos/video_splitter.nut"
 	"origin" "16 -128 33"
 	editor
 	{
@@ -4709,7 +4709,7 @@ entity
 	"spawnflags" "256"
 	"StartDisabled" "0"
 	"targetname" "elevator_tube_opener"
-	"origin" "1.90735e-005 0.166706 -123"
+	"origin" "1.90735e-05 0.166706 -123"
 	editor
 	{
 		"color" "220 30 220"
@@ -7468,7 +7468,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "elevator_1_body"
-	"origin" "1.90735e-005 0.166706 -111"
+	"origin" "1.90735e-05 0.166706 -111"
 	editor
 	{
 		"color" "220 30 220"
@@ -7514,7 +7514,8 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1.90735e-005 0.166706 -112"
+	"uniformscale" "1"
+	"origin" "1.90735e-05 0.166706 -112"
 	editor
 	{
 		"color" "255 255 0"
@@ -7691,7 +7692,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 1824"
+		"origin" "5.69665e-05 128 1824"
 		editor
 		{
 			"color" "220 30 220"
@@ -7711,7 +7712,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 2816"
+		"origin" "5.69665e-05 128 2816"
 		editor
 		{
 			"color" "220 30 220"
@@ -7771,7 +7772,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 3872"
+		"origin" "5.69665e-05 128 3872"
 		editor
 		{
 			"color" "220 30 220"
@@ -7831,7 +7832,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 2848"
+		"origin" "5.69665e-05 128 2848"
 		editor
 		{
 			"color" "220 30 220"
@@ -7851,7 +7852,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 3840"
+		"origin" "5.69665e-05 128 3840"
 		editor
 		{
 			"color" "220 30 220"
@@ -7871,7 +7872,7 @@ hidden
 		"angles" "-2.50448e-006 -90 -90"
 		"file" "instances/lights/light_panel_32x128_neutral_med.vmf"
 		"fixup_style" "0"
-		"origin" "5.69665e-005 128 1792"
+		"origin" "5.69665e-05 128 1792"
 		editor
 		{
 			"color" "220 30 220"

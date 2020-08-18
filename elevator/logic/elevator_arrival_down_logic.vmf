@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "223"
+	"editorbuild" "8696"
+	"mapversion" "224"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "223"
+	"mapversion" "224"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -724,7 +724,7 @@ entity
 	"spawnflags" "256"
 	"StartDisabled" "0"
 	"targetname" "elevator_tube_opener"
-	"origin" "1.90735e-005 0.166706 -123"
+	"origin" "1.90735e-05 0.166706 -123"
 	editor
 	{
 		"color" "220 30 220"
@@ -754,7 +754,8 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "1.90735e-005 0.166706 -112"
+	"uniformscale" "1"
+	"origin" "1.90735e-05 0.166706 -112"
 	editor
 	{
 		"color" "255 255 0"
@@ -769,7 +770,7 @@ entity
 	"classname" "logic_script"
 	"angles" "0 0 0"
 	"targetname" "video_script"
-	"vscripts" "revolution/elevator_videos/video_splitter.nut"
+	"vscripts" "p2ce/elevator_videos/video_splitter.nut"
 	"origin" "16 -128 24"
 	editor
 	{
@@ -1329,7 +1330,7 @@ cameras
 	camera
 	{
 		"position" "[8.06487 -203.853 104.633]"
-		"look" "[23.6946 -58.0015 -5.86306]"
+		"look" "[23.6946 -58.0015 -5.86307]"
 	}
 	camera
 	{

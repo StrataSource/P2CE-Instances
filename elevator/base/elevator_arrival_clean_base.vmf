@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "246"
+	"editorbuild" "8696"
+	"mapversion" "247"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "246"
+	"mapversion" "247"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2193,7 +2193,7 @@ entity
 	"id" "44795"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 -180 -180"
-	"file" "instances_revolution/lights/chamber_lightstrip_cold01.vmf"
+	"file" "instances_p2ce/lights/chamber_lightstrip_cold01.vmf"
 	"fixup_style" "0"
 	"origin" "0 -528 336"
 	editor
@@ -2225,6 +2225,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -264 -16"
 	editor
 	{
@@ -2256,6 +2257,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 432"
 	editor
 	{
@@ -2287,6 +2289,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 304"
 	editor
 	{
@@ -2318,6 +2321,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 240"
 	editor
 	{
@@ -2349,6 +2353,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 176"
 	editor
 	{
@@ -2380,6 +2385,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 112"
 	editor
 	{
@@ -2411,6 +2417,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 48"
 	editor
 	{
@@ -2442,6 +2449,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 -16"
 	editor
 	{
@@ -2473,6 +2481,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 -16"
 	editor
 	{
@@ -2504,6 +2513,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 368"
 	editor
 	{
@@ -2579,6 +2589,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 432"
 	editor
 	{
@@ -2610,6 +2621,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 368"
 	editor
 	{
@@ -3455,6 +3467,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 304"
 	editor
 	{
@@ -3486,6 +3499,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -576 148"
 	editor
 	{
@@ -3583,6 +3597,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 432"
 	editor
 	{
@@ -3614,6 +3629,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 304"
 	editor
 	{
@@ -3645,6 +3661,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 112"
 	editor
 	{
@@ -3676,6 +3693,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 48"
 	editor
 	{
@@ -4111,6 +4129,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 240"
 	editor
 	{
@@ -4142,6 +4161,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "84 -300 208"
 	editor
 	{
@@ -4173,6 +4193,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-84 -300 208"
 	editor
 	{
@@ -16894,6 +16915,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -384 84"
 	editor
 	{
@@ -16925,6 +16947,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 -54.551"
 	editor
 	{
@@ -16956,6 +16979,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -17029,6 +17053,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -17087,6 +17112,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 0"
 	editor
 	{
@@ -17118,6 +17144,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 0"
 	editor
 	{
@@ -17149,6 +17176,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -17207,6 +17235,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 -54.551"
 	editor
 	{
@@ -17238,6 +17267,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -17253,7 +17283,7 @@ entity
 	"id" "44237"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 180 180"
-	"file" "instances_revolution/lights/chamber_lightstrip_cold01.vmf"
+	"file" "instances_p2ce/lights/chamber_lightstrip_cold01.vmf"
 	"fixup_style" "0"
 	"origin" "0 -560 336"
 	editor
@@ -17325,6 +17355,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 176"
 	editor
 	{
@@ -17356,6 +17387,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -528 148"
 	editor
 	{
@@ -17387,6 +17419,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -560 148"
 	editor
 	{
@@ -17434,6 +17467,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 368"
 	editor
 	{
@@ -17478,8 +17512,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[99.8237 205.997 114.713]"
-		"look" "[8.91653 4.66493 142.62]"
+		"position" "[27.1517 -551.554 218.592]"
+		"look" "[-39.567 -560.574 430.83]"
 	}
 	camera
 	{

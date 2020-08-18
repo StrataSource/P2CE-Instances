@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "258"
+	"editorbuild" "8696"
+	"mapversion" "259"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "258"
+	"mapversion" "259"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7768,6 +7768,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.00012207 -96 2176"
 	editor
 	{
@@ -7828,6 +7829,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.000244141 -96 1152"
 	editor
 	{
@@ -7861,6 +7863,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.000244141 -96 1408"
 	editor
 	{
@@ -7894,6 +7897,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.000244141 -96 896"
 	editor
 	{
@@ -7927,6 +7931,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.00012207 -96 2432"
 	editor
 	{
@@ -7960,6 +7965,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0.00012207 -96 1920"
 	editor
 	{
@@ -7993,6 +7999,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 3456"
 	editor
 	{
@@ -8026,6 +8033,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 3200"
 	editor
 	{
@@ -8059,6 +8067,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 2944"
 	editor
 	{
@@ -12406,7 +12415,7 @@ entity
 	"id" "54459"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 180 180"
-	"file" "instances_revolution/lights/chamber_lightstrip_warm01.vmf"
+	"file" "instances_p2ce/lights/chamber_lightstrip_warm01.vmf"
 	"fixup_style" "0"
 	"origin" "0 -560 336"
 	editor
@@ -12494,6 +12503,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-192 192 208"
 	editor
 	{
@@ -12526,6 +12536,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-156 204 16"
 	editor
 	{
@@ -12689,6 +12700,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "106 -104 0"
 	editor
 	{
@@ -12719,6 +12731,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "192 -192 208"
 	editor
 	{
@@ -12848,6 +12861,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 304"
 	editor
 	{
@@ -12879,6 +12893,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 176"
 	editor
 	{
@@ -12910,6 +12925,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 112"
 	editor
 	{
@@ -12941,6 +12957,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 48"
 	editor
 	{
@@ -12972,6 +12989,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 -16"
 	editor
 	{
@@ -13003,6 +13021,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 -16"
 	editor
 	{
@@ -13034,6 +13053,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 368"
 	editor
 	{
@@ -13065,6 +13085,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -264 -16"
 	editor
 	{
@@ -13140,6 +13161,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 368"
 	editor
 	{
@@ -13524,6 +13546,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "152 -198 144"
 	editor
 	{
@@ -13567,6 +13590,7 @@ entity
 	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-90 160 0"
 	editor
 	{
@@ -13685,6 +13709,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "180 -180 240"
 	editor
 	{
@@ -13782,6 +13807,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "180 -180 176"
 	editor
 	{
@@ -13814,6 +13840,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-188 144 144"
 	editor
 	{
@@ -13961,6 +13988,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "0 -264 432"
 	editor
 	{
@@ -14015,6 +14043,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -576 148"
 	editor
 	{
@@ -14090,6 +14119,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 304"
 	editor
 	{
@@ -14121,6 +14151,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 432"
 	editor
 	{
@@ -14152,6 +14183,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 304"
 	editor
 	{
@@ -14183,6 +14215,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 112"
 	editor
 	{
@@ -14214,6 +14247,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 48"
 	editor
 	{
@@ -14267,6 +14301,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 240"
 	editor
 	{
@@ -14298,6 +14333,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 368"
 	editor
 	{
@@ -14645,6 +14681,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 240"
 	editor
 	{
@@ -14676,6 +14713,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "84 -300 208"
 	editor
 	{
@@ -14707,6 +14745,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-84 -300 208"
 	editor
 	{
@@ -26820,6 +26859,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -384 84"
 	editor
 	{
@@ -26851,6 +26891,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 -54.551"
 	editor
 	{
@@ -26882,6 +26923,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -26913,6 +26955,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "66 -255 432"
 	editor
 	{
@@ -26944,6 +26987,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -27002,6 +27046,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 0"
 	editor
 	{
@@ -27033,6 +27078,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 0"
 	editor
 	{
@@ -27064,6 +27110,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -27122,6 +27169,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 -54.551"
 	editor
 	{
@@ -27153,6 +27201,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 0 399.589"
 	editor
 	{
@@ -27282,6 +27331,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "1"
 	"solid" "0"
+	"uniformscale" "1"
 	"origin" "-66 -256 176"
 	editor
 	{
@@ -27313,6 +27363,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -528 148"
 	editor
 	{
@@ -27344,6 +27395,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -560 148"
 	editor
 	{
@@ -27418,7 +27470,7 @@ entity
 	"id" "12670"
 	"classname" "func_instance"
 	"angles" "-5.00896e-006 -180 -180"
-	"file" "instances_revolution/lights/chamber_lightstrip_warm01.vmf"
+	"file" "instances_p2ce/lights/chamber_lightstrip_warm01.vmf"
 	"fixup_style" "0"
 	"origin" "0 -528 336"
 	editor
@@ -27453,6 +27505,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -296"
 	editor
 	{
@@ -27485,6 +27538,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -3040"
 	editor
 	{
@@ -27517,6 +27571,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -1311.75"
 	editor
 	{
@@ -27548,6 +27603,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -160"
 	editor
 	{
@@ -27632,6 +27688,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -1056"
 	editor
 	{
@@ -27687,6 +27744,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 80 -1056"
 	editor
 	{
@@ -27719,6 +27777,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -800"
 	editor
 	{
@@ -27751,6 +27810,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -2016"
 	editor
 	{
@@ -27835,6 +27895,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -2272"
 	editor
 	{
@@ -27867,6 +27928,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -1760"
 	editor
 	{
@@ -27925,6 +27987,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -544"
 	editor
 	{
@@ -27957,6 +28020,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -3296"
 	editor
 	{
@@ -27989,6 +28053,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -2784"
 	editor
 	{
@@ -28018,6 +28083,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -1312"
 	editor
 	{
@@ -28047,6 +28113,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -1056"
 	editor
 	{
@@ -28079,6 +28146,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -4320"
 	editor
 	{
@@ -28111,6 +28179,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -4064"
 	editor
 	{
@@ -28140,6 +28209,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -800"
 	editor
 	{
@@ -28169,6 +28239,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -544"
 	editor
 	{
@@ -28201,6 +28272,7 @@ entity
 	"shadowdepthnocache" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "0 -96 -3808"
 	editor
 	{
@@ -28246,6 +28318,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 -96 -288"
 	editor
 	{
@@ -28405,6 +28478,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 80 -544"
 	editor
 	{
@@ -28462,6 +28536,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 79.75 -1184"
 	editor
 	{
@@ -28623,6 +28698,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-48 80 -1232"
 	editor
 	{
@@ -28680,6 +28756,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 80 -416"
 	editor
 	{
@@ -28735,6 +28812,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
+	"uniformscale" "1"
 	"origin" "-96 80 -800"
 	editor
 	{
@@ -32938,8 +33016,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[44.1174 -539.134 297.853]"
-		"look" "[-35.9268 -529.152 505.39]"
+		"position" "[46.0217 -538.798 279.989]"
+		"look" "[-31.4055 -545.969 488.632]"
 	}
 }
 cordons
