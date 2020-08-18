@@ -1,0 +1,194 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "14"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "14"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "307"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "closeTrigger0-1"
+	}
+	"origin" "56 8 104"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "313"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "close"
+	connections
+	{
+		"OnTrigger" "doorinstance:close;Trigger0-1"
+	}
+	"origin" "40 8 104"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "212"
+	"classname" "trigger_multiple"
+	"origin" "0 56 64"
+	"solid" "6"
+	"spawnflags" "4097"
+	"StartDisabled" "0"
+	"wait" "1"
+	connections
+	{
+		"OnTrigger" "doorinstance:open;Trigger0-1"
+	}
+	solid
+	{
+		"id" "205"
+		side
+		{
+			"id" "60"
+			"plane" "(-64 9.53674e-006 128) (-64 112 128) (64 112 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-64 112 0) (-64 9.53674e-006 0) (64 9.53674e-006 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-64 9.53674e-006 0) (-64 112 0) (-64 112 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(64 112 0) (64 9.53674e-006 0) (64 9.53674e-006 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-64 112 0) (64 112 0) (64 112 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(64 9.53674e-006 0) (-64 9.53674e-006 0) (-64 9.53674e-006 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "161"
+	"classname" "func_instance"
+	"angles" "-0 180 0"
+	"file" "instances_revolution/doors/bts_catwalk_door.vmf"
+	"fixup_style" "0"
+	"targetname" "door"
+	connections
+	{
+		"OnProxyRelay" "openTrigger0-1"
+		"OnProxyRelay" "closeTrigger0-1"
+	}
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

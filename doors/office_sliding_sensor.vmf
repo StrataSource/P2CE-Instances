@@ -1,0 +1,233 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_office/sliding_door_sensor.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 -63.0828"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_office/sliding_door_sensor.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 -63.0828"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "200"
+	"rendercolor" "216 54 54"
+	"rendermode" "9"
+	"scale" "0.1"
+	"spawnflags" "1"
+	"targetname" "sensor_sprite_red"
+	"origin" "4 13 57.6522"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "200"
+	"rendercolor" "53 219 57"
+	"rendermode" "9"
+	"scale" "0.1"
+	"targetname" "sensor_sprite_green"
+	"origin" "3.98315 13 56.1182"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "200"
+	"rendercolor" "53 219 57"
+	"rendermode" "9"
+	"scale" "0.1"
+	"targetname" "sensor_sprite_green"
+	"origin" "-4.01686 -13 56.1182"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "env_sprite"
+	"angles" "0 0 0"
+	"framerate" "10.0"
+	"GlowProxySize" "3"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow02.vmt"
+	"renderamt" "200"
+	"rendercolor" "216 54 54"
+	"rendermode" "9"
+	"scale" "0.1"
+	"spawnflags" "1"
+	"targetname" "sensor_sprite_red"
+	"origin" "-4 -13 57.6522"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "170"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "turnoffTrigger0-1"
+		"OnProxyRelay" "turnonTrigger0-1"
+	}
+	"origin" "0 0 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "172"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "turnoff"
+	connections
+	{
+		"OnTrigger" "sensor_sprite_greenHideSprite0-1"
+		"OnTrigger" "sensor_sprite_redShowSprite0-1"
+	}
+	"origin" "0 -8 64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "turnon"
+	connections
+	{
+		"OnTrigger" "sensor_sprite_redHideSprite0-1"
+		"OnTrigger" "sensor_sprite_greenShowSprite0-1"
+	}
+	"origin" "0 8 64"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

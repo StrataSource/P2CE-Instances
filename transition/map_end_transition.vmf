@@ -1,0 +1,190 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+}
+entity
+{
+	"id" "3"
+	"classname" "trigger_teleport"
+	"landmark" "@player_end"
+	"origin" "0 0 256"
+	"solid" "6"
+	"spawnflags" "4097"
+	"StartDisabled" "1"
+	"targetname" "@player_end_teleport"
+	"UseLandmarkAngles" "1"
+	"vscripts" "transitions/sp_elevator_motifs.nut"
+	connections
+	{
+		"OnStartTouch" "playerteleportRunScriptCodeReadyForTransition()1-1"
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "1"
+			"plane" "(-512 -512 512) (-512 512 512) (512 512 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-512 512 0) (-512 -512 0) (512 -512 0)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-512 -512 0) (-512 512 0) (-512 512 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(512 512 0) (512 -512 0) (512 -512 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-512 512 0) (512 512 0) (512 512 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(512 -512 0) (-512 -512 0) (-512 -512 512)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "info_teleport_destination"
+	"angles" "0 0 0"
+	"targetname" "@player_end"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "89"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "transition_teleportTrigger0-1"
+	}
+	"origin" "0 32 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "transition_teleport"
+	connections
+	{
+		"OnTrigger" "@player_end_teleportEnable0-1"
+	}
+	"origin" "-16 32 8"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

@@ -1,0 +1,83 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8419"
+	"mapversion" "4"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "4"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "90 0 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_lights/light_panel_64_002.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "3"
+	"solid" "6"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -3768]"
+	}
+}
+entity
+{
+	"id" "14"
+	"classname" "light_spot"
+	"_cone" "60"
+	"_exponent" "1"
+	"_inner_cone" "40"
+	"_light" "248 202 139 200"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_linear_attn" "5"
+	"_quadratic_attn" "1"
+	"angles" "0 0 0"
+	"pitch" "-90"
+	"spawnflags" "0"
+	"origin" "0 0 -8"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
