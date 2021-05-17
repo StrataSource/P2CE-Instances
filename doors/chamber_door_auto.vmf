@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8419"
-	"mapversion" "12"
+	"editorbuild" "8796"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -16,11 +16,39 @@ viewsettings
 	"bShowLogicalGrid" "0"
 	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(0 0 0)"
+			"angle" "[0 0 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(16384 15.8881 -28.1507)"
+			"zoom" "2.67483"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "12"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -48,6 +76,14 @@ entity
 		{
 			"id" "54"
 			"plane" "(16 -96 128) (16 96 128) (144 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 -96 128"
+				"point" "1 16 96 128"
+				"point" "2 144 96 128"
+				"point" "3 144 -96 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -59,6 +95,14 @@ entity
 		{
 			"id" "53"
 			"plane" "(16 96 0) (16 -96 0) (144 -96 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 96 0"
+				"point" "1 16 -96 0"
+				"point" "2 144 -96 0"
+				"point" "3 144 96 0"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -70,6 +114,14 @@ entity
 		{
 			"id" "52"
 			"plane" "(16 -96 0) (16 96 0) (16 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 -96 0"
+				"point" "1 16 96 0"
+				"point" "2 16 96 128"
+				"point" "3 16 -96 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -81,6 +133,14 @@ entity
 		{
 			"id" "51"
 			"plane" "(144 96 0) (144 -96 0) (144 -96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 144 96 0"
+				"point" "1 144 -96 0"
+				"point" "2 144 -96 128"
+				"point" "3 144 96 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -92,6 +152,14 @@ entity
 		{
 			"id" "50"
 			"plane" "(16 96 0) (144 96 0) (144 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 16 96 0"
+				"point" "1 144 96 0"
+				"point" "2 144 96 128"
+				"point" "3 16 96 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -103,6 +171,14 @@ entity
 		{
 			"id" "49"
 			"plane" "(144 -96 0) (16 -96 0) (16 -96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 144 -96 0"
+				"point" "1 16 -96 0"
+				"point" "2 16 -96 128"
+				"point" "3 144 -96 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 8] 0.25"
@@ -145,6 +221,14 @@ entity
 		{
 			"id" "30"
 			"plane" "(-80 80 128) (-64 80 128) (-64 -80 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -80 -80 128"
+				"point" "1 -80 80 128"
+				"point" "2 -64 80 128"
+				"point" "3 -64 -80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -156,6 +240,14 @@ entity
 		{
 			"id" "29"
 			"plane" "(-80 -80 0) (-64 -80 0) (-64 80 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -80 80 0"
+				"point" "1 -80 -80 0"
+				"point" "2 -64 -80 0"
+				"point" "3 -64 80 0"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -167,6 +259,14 @@ entity
 		{
 			"id" "28"
 			"plane" "(-80 80 128) (-80 -80 128) (-80 -80 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -80 -80 0"
+				"point" "1 -80 80 0"
+				"point" "2 -80 80 128"
+				"point" "3 -80 -80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -178,6 +278,14 @@ entity
 		{
 			"id" "27"
 			"plane" "(-64 80 0) (-64 -80 0) (-64 -80 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 80 0"
+				"point" "1 -64 -80 0"
+				"point" "2 -64 -80 128"
+				"point" "3 -64 80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -189,6 +297,14 @@ entity
 		{
 			"id" "26"
 			"plane" "(-64 80 128) (-80 80 128) (-80 80 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -80 80 0"
+				"point" "1 -64 80 0"
+				"point" "2 -64 80 128"
+				"point" "3 -80 80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -200,6 +316,14 @@ entity
 		{
 			"id" "25"
 			"plane" "(-64 -80 0) (-80 -80 0) (-80 -80 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -80 0"
+				"point" "1 -80 -80 0"
+				"point" "2 -80 -80 128"
+				"point" "3 -64 -80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -220,7 +344,15 @@ entity
 		side
 		{
 			"id" "36"
-			"plane" "(-64 -80 128) (-16 -80 128) (-16 -80 -3.33786e-006)"
+			"plane" "(-64 -80 128) (-16 -80 128) (-16 -80 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 -80 128"
+				"point" "1 -16 -80 0"
+				"point" "2 -64 -80 0"
+				"point" "3 -64 -80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -231,7 +363,15 @@ entity
 		side
 		{
 			"id" "35"
-			"plane" "(-64 -64 -2.38419e-006) (-16 -64 -2.38419e-006) (-16 -64 128)"
+			"plane" "(-64 -64 -2.38419e-06) (-16 -64 -2.38419e-06) (-16 -64 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 128"
+				"point" "1 -64 -64 0"
+				"point" "2 -16 -64 0"
+				"point" "3 -16 -64 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -242,7 +382,15 @@ entity
 		side
 		{
 			"id" "34"
-			"plane" "(-64 -80 128) (-64 -80 -3.33786e-006) (-64 -64 -2.38419e-006)"
+			"plane" "(-64 -80 128) (-64 -80 -3.33786e-06) (-64 -64 -2.38419e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -80 128"
+				"point" "1 -64 -80 0"
+				"point" "2 -64 -64 0"
+				"point" "3 -64 -64 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 0 1 32] 0.25"
 			"vaxis" "[0 1 0 32] 0.25"
@@ -253,7 +401,15 @@ entity
 		side
 		{
 			"id" "33"
-			"plane" "(-16 -64 128) (-16 -64 -2.38419e-006) (-16 -80 -3.33786e-006)"
+			"plane" "(-16 -64 128) (-16 -64 -2.38419e-06) (-16 -80 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 -64 128"
+				"point" "1 -16 -64 0"
+				"point" "2 -16 -80 0"
+				"point" "3 -16 -80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 0 1 32] 0.25"
 			"vaxis" "[0 1 0 32] 0.25"
@@ -265,6 +421,14 @@ entity
 		{
 			"id" "32"
 			"plane" "(-16 -80 128) (-64 -80 128) (-64 -64 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 -80 128"
+				"point" "1 -64 -80 128"
+				"point" "2 -64 -64 128"
+				"point" "3 -16 -64 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 32] 0.25"
@@ -275,7 +439,15 @@ entity
 		side
 		{
 			"id" "31"
-			"plane" "(-16 -64 -2.38419e-006) (-64 -64 -2.38419e-006) (-64 -80 -3.33786e-006)"
+			"plane" "(-16 -64 -2.38419e-06) (-64 -64 -2.38419e-06) (-64 -80 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 -64 0"
+				"point" "1 -64 -64 0"
+				"point" "2 -64 -80 0"
+				"point" "3 -16 -80 0"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 32] 0.25"
@@ -296,7 +468,15 @@ entity
 		side
 		{
 			"id" "42"
-			"plane" "(-64 64 128) (-16 64 128) (-16 64 -3.33786e-006)"
+			"plane" "(-64 64 128) (-16 64 128) (-16 64 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 64 128"
+				"point" "1 -16 64 0"
+				"point" "2 -64 64 0"
+				"point" "3 -64 64 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -307,7 +487,15 @@ entity
 		side
 		{
 			"id" "41"
-			"plane" "(-64 80 -2.38419e-006) (-16 80 -2.38419e-006) (-16 80 128)"
+			"plane" "(-64 80 -2.38419e-06) (-16 80 -2.38419e-06) (-16 80 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 80 128"
+				"point" "1 -64 80 0"
+				"point" "2 -16 80 0"
+				"point" "3 -16 80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -318,7 +506,15 @@ entity
 		side
 		{
 			"id" "40"
-			"plane" "(-64 64 128) (-64 64 -3.33786e-006) (-64 80 -2.38419e-006)"
+			"plane" "(-64 64 128) (-64 64 -3.33786e-06) (-64 80 -2.38419e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 128"
+				"point" "1 -64 64 0"
+				"point" "2 -64 80 0"
+				"point" "3 -64 80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 0 1 32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -329,7 +525,15 @@ entity
 		side
 		{
 			"id" "39"
-			"plane" "(-16 80 128) (-16 80 -2.38419e-006) (-16 64 -3.33786e-006)"
+			"plane" "(-16 80 128) (-16 80 -2.38419e-06) (-16 64 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 80 128"
+				"point" "1 -16 80 0"
+				"point" "2 -16 64 0"
+				"point" "3 -16 64 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[0 0 1 32] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -341,6 +545,14 @@ entity
 		{
 			"id" "38"
 			"plane" "(-16 64 128) (-64 64 128) (-64 80 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 64 128"
+				"point" "1 -64 64 128"
+				"point" "2 -64 80 128"
+				"point" "3 -16 80 128"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -351,7 +563,15 @@ entity
 		side
 		{
 			"id" "37"
-			"plane" "(-16 80 -2.38419e-006) (-64 80 -2.38419e-006) (-64 64 -3.33786e-006)"
+			"plane" "(-16 80 -2.38419e-06) (-64 80 -2.38419e-06) (-64 64 -3.33786e-06)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -16 80 0"
+				"point" "1 -64 80 0"
+				"point" "2 -64 64 0"
+				"point" "3 -16 64 0"
+			}
 			"material" "TOOLS/TOOLSTRIGGER"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 1 0 -32] 0.25"
@@ -379,7 +599,7 @@ entity
 	"id" "525"
 	"classname" "func_instance"
 	"angles" "-0 0 0"
-	"file" "instances_revolution/doors/chamber_door.vmf"
+	"file" "instances/doors/chamber_door.vmf"
 	"targetname" "door"
 	"origin" "0 0 0"
 	editor
