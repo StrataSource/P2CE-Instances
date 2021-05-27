@@ -1,0 +1,127 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8796"
+	"mapversion" "859"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "4"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(37.2364 -16.2881 56.1861)"
+			"angle" "[28.4 295.6 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(9.68905 -2.45803 16384)"
+			"zoom" "2.67483"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "859"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_white"
+}
+entity
+{
+	"id" "164204"
+	"classname" "env_soundscape"
+	"angles" "0 0 0"
+	"radius" "128"
+	"soundscape" "EntryExitElevator.OpenChamber"
+	"StartDisabled" "0"
+	"origin" "0 0 32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "164193"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "@departure_elevator_soundscapeDisable0-1"
+	}
+	"origin" "0 0 48"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "2"
+	camera
+	{
+		"position" "[-1077.33 -483.759 -509.143]"
+		"look" "[-1077.33 -483.64 -855.089]"
+	}
+	camera
+	{
+		"position" "[-238.129 161.475 25.1798]"
+		"look" "[-257.816 211.397 21.8036]"
+	}
+	camera
+	{
+		"position" "[37.2364 -16.2881 56.1861]"
+		"look" "[-317.274 153.565 -156.362]"
+	}
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-748 -886 -468)"
+			"maxs" "(164 773 356)"
+		}
+	}
+}
