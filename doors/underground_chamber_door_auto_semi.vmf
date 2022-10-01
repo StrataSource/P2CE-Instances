@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9471"
-	"mapversion" "16"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,13 +22,13 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-22.6574 147.028 279.504)"
-			"angle" "[38.4 151.6 0]"
+			"position" "(21.6052 -158.389 183.864)"
+			"angle" "[31.6 7.60006 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(77.3752 57.0212 16384)"
+			"position" "(77.3752 57.0212 0)"
 			"zoom" "3.85177"
 		}
 		v2
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "18"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -83,6 +83,7 @@ entity
 	connections
 	{
 		"OnTrigger" "doorinstance:close;Trigger0-1"
+		"OnTrigger" "openTriggerSemiEnable2-1"
 	}
 	"origin" "56 -72 120"
 	editor
@@ -117,10 +118,12 @@ entity
 	"solid" "6"
 	"spawnflags" "4097"
 	"startdisabled" "0"
+	"targetname" "openTriggerSemi"
 	"wait" "1"
 	connections
 	{
 		"OnTrigger" "doorinstance:open;Trigger0-1"
+		"OnTrigger" "!selfDisable0-1"
 	}
 	solid
 	{

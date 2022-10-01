@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9471"
-	"mapversion" "9"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,19 +22,19 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-69.4552 -22.4907 161.311)"
-			"angle" "[44 100.001 0]"
+			"position" "(-52.1418 -75.9356 153.024)"
+			"angle" "[27.6 49.201 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-10.9359 -15.2876 16384)"
+			"position" "(-10.9359 -15.2876 0)"
 			"zoom" "9.5844"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(16384 -6.51663 84.0884)"
+			"position" "(0 -6.51663 84.0884)"
 			"zoom" "3.2098"
 		}
 		v3
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -66,6 +66,8 @@ entity
 	{
 		"OnTrigger" "doorSetAnimationopen0-1"
 		"OnTrigger" "securityDisable0-1"
+		"OnTrigger" "closeEnable1-1"
+		"OnTrigger" "!selfDisable0-1"
 	}
 	"origin" "-16 -15.8618 120"
 	editor
@@ -81,11 +83,14 @@ entity
 	"id" "478"
 	"classname" "logic_relay"
 	"angles" "0 0 0"
+	"startdisabled" "1"
 	"targetname" "close"
 	connections
 	{
 		"OnTrigger" "securityEnable0-1"
 		"OnTrigger" "doorSetAnimationclose0-1"
+		"OnTrigger" "!selfDisable0-1"
+		"OnTrigger" "openEnable2-1"
 	}
 	"origin" "-16 -31.8618 120"
 	editor
@@ -283,7 +288,7 @@ entity
 	"exploderadius" "0"
 	"fadescale" "1"
 	"health" "0"
-	"holdanimation" "0"
+	"holdanimation" "1"
 	"maxanimtime" "10"
 	"minanimtime" "5"
 	"minhealthdmg" "0"
