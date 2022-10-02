@@ -1,0 +1,267 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9471"
+	"mapversion" "18"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(21.6052 -158.389 183.864)"
+			"angle" "[31.6 7.60006 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(77.3752 57.0212 0)"
+			"zoom" "3.85177"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "18"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "558"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "closeTrigger0-1"
+	}
+	"origin" "56 -88 120"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "564"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"targetname" "close"
+	connections
+	{
+		"OnTrigger" "doorinstance:close;Trigger0-1"
+		"OnTrigger" "openTriggerSemiEnable2-1"
+	}
+	"origin" "56 -72 120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "525"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "instances/doors/underground_chamber_door.vmf"
+	"targetname" "door"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "543"
+	"classname" "trigger_multiple"
+	"origin" "72 0 64"
+	"solid" "6"
+	"spawnflags" "4097"
+	"startdisabled" "0"
+	"targetname" "openTriggerSemi"
+	"wait" "1"
+	connections
+	{
+		"OnTrigger" "doorinstance:open;Trigger0-1"
+		"OnTrigger" "!selfDisable0-1"
+	}
+	solid
+	{
+		"id" "534"
+		side
+		{
+			"id" "371"
+			"plane" "(8 -96 128) (8 96 128) (136 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 8 -96 128"
+				"point" "1 8 96 128"
+				"point" "2 136 96 128"
+				"point" "3 136 -96 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "372"
+			"plane" "(8 96 0) (8 -96 0) (136 -96 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 8 96 0"
+				"point" "1 8 -96 0"
+				"point" "2 136 -96 0"
+				"point" "3 136 96 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "373"
+			"plane" "(8 -96 0) (8 96 0) (8 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 8 -96 0"
+				"point" "1 8 96 0"
+				"point" "2 8 96 128"
+				"point" "3 8 -96 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "374"
+			"plane" "(136 96 0) (136 -96 0) (136 -96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 136 96 0"
+				"point" "1 136 -96 0"
+				"point" "2 136 -96 128"
+				"point" "3 136 96 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "375"
+			"plane" "(8 96 0) (136 96 0) (136 96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 8 96 0"
+				"point" "1 136 96 0"
+				"point" "2 136 96 128"
+				"point" "3 8 96 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "376"
+			"plane" "(136 -96 0) (8 -96 0) (8 -96 128)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 136 -96 0"
+				"point" "1 8 -96 0"
+				"point" "2 8 -96 128"
+				"point" "3 136 -96 128"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
