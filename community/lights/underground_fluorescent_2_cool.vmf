@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "22"
+	"mapversion" "23"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "22"
+	"mapversion" "23"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -102,7 +102,7 @@ entity
 	"glowproxysize" "6"
 	"hdrcolorscale" "0.7"
 	"model" "sprites/light_glow03.vmt"
-	"renderamt" "130"
+	"renderamt" "100"
 	"rendercolor" "145 194 232"
 	"renderfx" "0"
 	"rendermode" "9"
@@ -127,7 +127,7 @@ entity
 	"glowproxysize" "6"
 	"hdrcolorscale" "0.7"
 	"model" "sprites/light_glow03.vmt"
-	"renderamt" "130"
+	"renderamt" "100"
 	"rendercolor" "145 194 232"
 	"renderfx" "0"
 	"rendermode" "9"
@@ -152,7 +152,7 @@ entity
 	"glowproxysize" "6"
 	"hdrcolorscale" "0.7"
 	"model" "sprites/light_glow03.vmt"
-	"renderamt" "130"
+	"renderamt" "100"
 	"rendercolor" "145 194 232"
 	"renderfx" "0"
 	"rendermode" "9"
@@ -177,7 +177,7 @@ entity
 	"glowproxysize" "6"
 	"hdrcolorscale" "0.7"
 	"model" "sprites/light_glow03.vmt"
-	"renderamt" "130"
+	"renderamt" "100"
 	"rendercolor" "145 194 232"
 	"renderfx" "0"
 	"rendermode" "9"
