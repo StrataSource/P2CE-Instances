@@ -1,0 +1,236 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9672"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	group
+	{
+		"id" "20"
+		editor
+		{
+			"color" "247 108 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "61"
+	"classname" "func_instance_parms"
+	"parm1" "$brightness string 40"
+	"origin" "0 0 -32"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "184 221 239 $brightness"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 -32 -32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5500]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "prop_static"
+	"angles" "0 180 180"
+	"disableshadows" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"model" "models/props_lights/under_neonlamp.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -9768]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "light"
+	"_constant_attn" "0"
+	"_distance" "0"
+	"_fifty_percent_distance" "0"
+	"_hardfalloff" "0"
+	"_light" "184 221 239 $brightness"
+	"_lighthdr" "-1 -1 -1 1"
+	"_lightscalehdr" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "0"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "0 32 -32"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 5500]"
+	}
+}
+entity
+{
+	"id" "21"
+	"classname" "env_glow"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "20"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "150"
+	"rendercolor" "174 211 238"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "1"
+	"origin" "0 32 -8"
+	editor
+	{
+		"color" "247 108 0"
+		"groupid" "20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "env_glow"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "16"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "150"
+	"rendercolor" "174 211 238"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "1.3"
+	"origin" "0 12 -8"
+	editor
+	{
+		"color" "247 108 0"
+		"groupid" "20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "29"
+	"classname" "env_glow"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "16"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "150"
+	"rendercolor" "174 211 238"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "1.3"
+	"origin" "0 -12 -8"
+	editor
+	{
+		"color" "247 108 0"
+		"groupid" "20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "33"
+	"classname" "env_glow"
+	"angles" "0 180 0"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"glowproxysize" "16"
+	"hdrcolorscale" "0.7"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "150"
+	"rendercolor" "174 211 238"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "1"
+	"origin" "0 -32 -8"
+	editor
+	{
+		"color" "247 108 0"
+		"groupid" "20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
