@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "23"
+	"mapversion" "26"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,33 +22,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-56.6026 15.2736 2.09859)"
-			"angle" "[-67.6 175.2 0]"
+			"position" "(-15.3965 47.1656 -78.9635)"
+			"angle" "[-66 189.2 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-85.183 -7.08698 65536)"
-			"zoom" "4.62211"
+			"position" "(-73.6759 -40.6054 65536)"
+			"zoom" "7.98701"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 20.2888 43.2002)"
-			"zoom" "4.62211"
+			"position" "(0 21.6847 -6.27207)"
+			"zoom" "7.98701"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-56.0903 -65536 69.5217)"
-			"zoom" "6.65583"
+			"position" "(-52.0199 -65536 45.2217)"
+			"zoom" "7.98701"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "26"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1177,7 +1177,7 @@ entity
 {
 	"id" "775"
 	"classname" "prop_static"
-	"angles" "0 180 -180"
+	"angles" "0 180 180"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_lights/under_neonlamp.mdl"
@@ -1187,7 +1187,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-64 0 64"
+	"origin" "-64 8 64"
 	editor
 	{
 		"color" "255 255 0"
@@ -1214,7 +1214,7 @@ entity
 {
 	"id" "402"
 	"classname" "prop_static"
-	"angles" "0 98.5 0"
+	"angles" "0 278.5 0"
 	"disableselfshadowing" "0"
 	"disablevertexlighting" "0"
 	"fademindist" "-1"
@@ -1224,10 +1224,10 @@ entity
 	"rendercolor" "255 255 255"
 	"scale" "1 1 1"
 	"screenspacefade" "0"
-	"skin" "0"
+	"skin" "5"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-51.5395 -42.3702 -1.71191"
+	"origin" "-80 41.3052 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -1240,7 +1240,7 @@ entity
 {
 	"id" "437"
 	"classname" "prop_static"
-	"angles" "0 185 0"
+	"angles" "0 352.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_office/office_keyboard.mdl"
@@ -1250,7 +1250,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-56.491 -20.3724 -26"
+	"origin" "-60 20 -26"
 	editor
 	{
 		"color" "255 255 0"
@@ -1263,7 +1263,7 @@ entity
 {
 	"id" "480"
 	"classname" "prop_static"
-	"angles" "0 333.5 0"
+	"angles" "0 153.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_office/cardboardbox_a_1970.mdl"
@@ -1273,7 +1273,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-103.539 -24.1678 -26"
+	"origin" "-38 44 -13"
 	editor
 	{
 		"color" "255 255 0"
@@ -1286,7 +1286,7 @@ entity
 {
 	"id" "515"
 	"classname" "prop_static"
-	"angles" "0 346 0"
+	"angles" "0 166 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_office/cardboardbox_c_1970.mdl"
@@ -1296,7 +1296,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-101.738 -45.065 -26"
+	"origin" "-37.801 44 -26"
 	editor
 	{
 		"color" "255 255 0"
@@ -1309,7 +1309,7 @@ entity
 {
 	"id" "542"
 	"classname" "prop_static"
-	"angles" "0 337.5 0"
+	"angles" "0 157.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_office/coffee_mug_11.mdl"
@@ -1319,7 +1319,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-35.7821 -32.4768 -26"
+	"origin" "-103.757 31.4118 -26"
 	editor
 	{
 		"color" "255 255 0"
@@ -1360,7 +1360,7 @@ entity
 {
 	"id" "36"
 	"classname" "prop_static"
-	"angles" "0 90 0"
+	"angles" "0 270 0"
 	"disableselfshadowing" "0"
 	"disablevertexlighting" "0"
 	"fademindist" "-1"
@@ -1373,7 +1373,7 @@ entity
 	"skin" "0"
 	"solid" "6"
 	"uniformscale" "1"
-	"origin" "-73 -32 -26"
+	"origin" "-66.539 30.935 -26"
 	editor
 	{
 		"color" "255 255 0"
@@ -1386,7 +1386,7 @@ entity
 {
 	"id" "40"
 	"classname" "prop_dynamic_override"
-	"angles" "0 315 0"
+	"angles" "0 105 0"
 	"AnimateEveryFrame" "0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
@@ -1412,7 +1412,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"SuppressAnimSounds" "0"
-	"origin" "-77.3 -9.87012 -39.389"
+	"origin" "-62.239 8.80512 -39.389"
 	editor
 	{
 		"color" "220 30 220"
@@ -1425,7 +1425,7 @@ entity
 {
 	"id" "94"
 	"classname" "prop_dynamic_override"
-	"angles" "0 345 0"
+	"angles" "0 14.9999 0"
 	"AnimateEveryFrame" "0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
@@ -1451,7 +1451,7 @@ entity
 	"solid" "6"
 	"spawnflags" "0"
 	"SuppressAnimSounds" "0"
-	"origin" "-39.73 34.2002 -39.389"
+	"origin" "-40 -40 -39.389"
 	editor
 	{
 		"color" "220 30 220"
@@ -1553,8 +1553,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-56.6026 15.2736 2.09859]"
-		"look" "[-48.2424 -84.2829 244.491]"
+		"position" "[-15.3965 47.1656 -78.9635]"
+		"look" "[-32.4455 -58.0986 160.545]"
 	}
 }
 cordons
