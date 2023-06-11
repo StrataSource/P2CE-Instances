@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "4"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "16"
 	"bShow3DGrid" "0"
 	"nInstanceVisibility" "2"
 	views
@@ -22,20 +22,20 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(0.305848 -97.7784 11.4867)"
-			"angle" "[4 359.2 0]"
+			"position" "(1.52725 -185.25 44.0242)"
+			"angle" "[14.8 359.2 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(28.4297 -31.6377 65536)"
+			"position" "(44.8793 -10.1161 65536)"
 			"zoom" "2.22903"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 21.0209 6.45762)"
-			"zoom" "7.987"
+			"position" "(65536 15.0132 14.3308)"
+			"zoom" "9.5844"
 		}
 		v3
 		{
@@ -48,14 +48,138 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_black_nofog"
-	"maxprojectedtextures" "8"
+	solid
+	{
+		"id" "40"
+		side
+		{
+			"id" "7"
+			"plane" "(-64 64 0) (64 64 0) (64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 0"
+				"point" "1 64 64 0"
+				"point" "2 64 -64 0"
+				"point" "3 -64 -64 0"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-64 -64 -4) (64 -64 -4) (64 64 -4)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 -64 -4"
+				"point" "1 64 -64 -4"
+				"point" "2 64 64 -4"
+				"point" "3 -64 64 -4"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-64 64 0) (-64 -64 0) (-64 -64 -4)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -64 64 0"
+				"point" "1 -64 -64 0"
+				"point" "2 -64 -64 -4"
+				"point" "3 -64 64 -4"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(64 64 -4) (64 -64 -4) (64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 -4"
+				"point" "1 64 -64 -4"
+				"point" "2 64 -64 0"
+				"point" "3 64 64 0"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(64 64 0) (-64 64 0) (-64 64 -4)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 64 0"
+				"point" "1 -64 64 0"
+				"point" "2 -64 64 -4"
+				"point" "3 64 64 -4"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(64 -64 -4) (-64 -64 -4) (-64 -64 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 64 -64 -4"
+				"point" "1 -64 -64 -4"
+				"point" "2 -64 -64 0"
+				"point" "3 64 -64 0"
+			}
+			"material" "TOOLS/TOOLSHINT"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 121"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 }
 entity
 {
