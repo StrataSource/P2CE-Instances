@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "33"
+	"mapversion" "34"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,33 +22,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-76.5812 42.7819 34.3547)"
-			"angle" "[16.8 115.2 0]"
+			"position" "(54.1672 -53.5746 1.43397)"
+			"angle" "[-4.40002 282.401 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-80.4846 27.0035 65536)"
-			"zoom" "4.62211"
+			"position" "(924.083 547.17 65344)"
+			"zoom" "0.5184"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 6.79865 -57.7496)"
-			"zoom" "3.85176"
+			"position" "(66560 801.896 -164.552)"
+			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-69.0187 -65536 -26.6901)"
-			"zoom" "34.3426"
+			"position" "(1204.19 -65568 -155.117)"
+			"zoom" "1.07495"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "33"
+	"mapversion" "34"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1582,29 +1582,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1500]"
-	}
-}
-entity
-{
-	"id" "1126"
-	"classname" "prop_static"
-	"angles" "0 89.9999 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_office/office_light002.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-104 0 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "23"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,33 +22,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-56.6026 15.2736 2.09859)"
-			"angle" "[-67.6 175.2 0]"
+			"position" "(-23.533 16.2832 5.84351)"
+			"angle" "[-66.8 237.601 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-85.183 -7.08698 65536)"
-			"zoom" "4.62211"
+			"position" "(1416.71 1513.93 65344)"
+			"zoom" "0.36"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(0 20.2888 43.2002)"
-			"zoom" "4.62211"
+			"position" "(66560 1665.9 -164.552)"
+			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(-56.0903 -65536 69.5217)"
-			"zoom" "6.65583"
+			"position" "(1204.19 -64704 -155.117)"
+			"zoom" "1.07495"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "24"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1175,29 +1175,6 @@ world
 }
 entity
 {
-	"id" "775"
-	"classname" "prop_static"
-	"angles" "0 180 -180"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_lights/under_neonlamp.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-64 0 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
-	}
-}
-entity
-{
 	"id" "646"
 	"classname" "func_instance_parms"
 	"parm1" "$brightness color255 1200"
@@ -1553,8 +1530,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-56.6026 15.2736 2.09859]"
-		"look" "[-48.2424 -84.2829 244.491]"
+		"position" "[-23.533 16.2832 5.84351]"
+		"look" "[-110.738 -39.056 246.817]"
 	}
 }
 cordons

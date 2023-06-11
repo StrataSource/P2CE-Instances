@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "28"
+	"mapversion" "31"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,33 +22,33 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-65.8764 1.10785 -44.1325)"
-			"angle" "[-82.8 190.4 0]"
+			"position" "(-32.9579 -24.7248 21.8253)"
+			"angle" "[-32.8 278.801 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(-107.026 10.7378 65536)"
-			"zoom" "4.62211"
+			"position" "(924.083 867.17 65344)"
+			"zoom" "0.5184"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(65536 -1.05515 49.9322)"
-			"zoom" "6.65585"
+			"position" "(66560 1121.9 -164.552)"
+			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(0 0 0)"
-			"zoom" "0.25"
+			"position" "(1204.19 -65248 -155.117)"
+			"zoom" "1.07495"
 		}
 	}
 }
 world
 {
 	"id" "1"
-	"mapversion" "28"
+	"mapversion" "31"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1437,29 +1437,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "1126"
-	"classname" "prop_static"
-	"angles" "0 89.9999 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"model" "models/props_office/office_light002.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"scale" "1 1 1"
-	"skin" "0"
-	"solid" "6"
-	"uniformscale" "1"
-	"origin" "-104 0 64"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 entity
