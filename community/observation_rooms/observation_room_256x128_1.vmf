@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "47"
+	"mapversion" "48"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,8 +22,8 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-9.62407 78.5132 -63.6365)"
-			"angle" "[-21.2 214 0]"
+			"position" "(-57.5788 111.473 -20.7744)"
+			"angle" "[-50.4 180 0]"
 		}
 		v1
 		{
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "47"
+	"mapversion" "48"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -662,9 +662,9 @@ world
 				"point" "2 -144 -128 128"
 				"point" "3 -16 -128 128"
 			}
-			"material" "CONCRETE/OBSERVATIONWALL_001A"
-			"uaxis" "[1 0 0 511.999] 0.25"
-			"vaxis" "[0 -1 0 -256] 0.25"
+			"material" "TILE/OBSERVATION_TILECEILING001A"
+			"uaxis" "[1 0 0 64] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

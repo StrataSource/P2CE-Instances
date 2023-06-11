@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "34"
+	"mapversion" "35"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,25 +22,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(54.1672 -53.5746 1.43397)"
-			"angle" "[-4.40002 282.401 0]"
+			"position" "(-24.499 -4.88709 15.8653)"
+			"angle" "[-30.8 264.401 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(924.083 547.17 65344)"
+			"position" "(924.083 547.17 0)"
 			"zoom" "0.5184"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(66560 801.896 -164.552)"
+			"position" "(0 801.896 -164.552)"
 			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1204.19 -65568 -155.117)"
+			"position" "(1204.19 0 -155.117)"
 			"zoom" "1.07495"
 		}
 	}
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "34"
+	"mapversion" "35"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -962,7 +962,7 @@ world
 				"point" "2 0 -96 64"
 				"point" "3 0 96 64"
 			}
-			"material" "TILE/OBSERVATION_TILECEILING001B"
+			"material" "TILE/OBSERVATION_TILECEILING001A"
 			"uaxis" "[-1 0 0 384] 0.25"
 			"vaxis" "[0 1 0 -384] 0.25"
 			"rotation" "0"

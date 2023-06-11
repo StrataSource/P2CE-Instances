@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9527"
-	"mapversion" "24"
+	"mapversion" "25"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -22,25 +22,25 @@ viewsettings
 		v0
 		{
 			"3d" "1"
-			"position" "(-23.533 16.2832 5.84351)"
-			"angle" "[-66.8 237.601 0]"
+			"position" "(28.4345 -5.20396 -42.4211)"
+			"angle" "[-35.2 253.601 0]"
 		}
 		v1
 		{
 			"3d" "0"
-			"position" "(1416.71 1513.93 65344)"
+			"position" "(1416.71 1513.93 0)"
 			"zoom" "0.36"
 		}
 		v2
 		{
 			"3d" "0"
-			"position" "(66560 1665.9 -164.552)"
+			"position" "(0 1665.9 -164.552)"
 			"zoom" "2.67483"
 		}
 		v3
 		{
 			"3d" "0"
-			"position" "(1204.19 -64704 -155.117)"
+			"position" "(1204.19 0 -155.117)"
 			"zoom" "1.07495"
 		}
 	}
@@ -48,7 +48,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "24"
+	"mapversion" "25"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -977,7 +977,7 @@ world
 				"point" "2 0 -64 64"
 				"point" "3 0 64 64"
 			}
-			"material" "TILE/OBSERVATION_TILECEILING001B"
+			"material" "TILE/OBSERVATION_TILECEILING001A"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
 			"rotation" "0"
@@ -1530,8 +1530,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-23.533 16.2832 5.84351]"
-		"look" "[-110.738 -39.056 246.817]"
+		"position" "[28.4345 -5.20396 -42.4211]"
+		"look" "[-177.085 -65.6876 108.705]"
 	}
 }
 cordons
