@@ -1,0 +1,855 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "9527"
+	"mapversion" "114"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-1.16693 133.333 -110.482)"
+			"angle" "[6.8 181.601 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-14.1606 117.438 65152)"
+			"zoom" "0.518401"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(256 -1187.67 -409.882)"
+			"zoom" "0.895795"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(6.81805 -65472 -40.8241)"
+			"zoom" "2.22903"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "114"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "1512"
+	"classname" "prop_monster_box"
+	"allowsilentdissolve" "1"
+	"angles" "0 270 0"
+	"boxswitchspeed" "400"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/npcs/monsters/monster_a.mdl"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"solid" "6"
+	"spawnflags" "256"
+	"StartAsBox" "1"
+	"targetname" "cube_dropper_box"
+	connections
+	{
+		"OnFizzled" "cube_dropper_autorespawnTrigger0-1"
+	}
+	"origin" "0 0 -36"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "1177"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "1174"
+		side
+		{
+			"id" "788"
+			"plane" "(-62 -62 0) (-62 62 0) (62 62 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -62 -62 0"
+				"point" "1 -62 62 0"
+				"point" "2 62 62 0"
+				"point" "3 62 -62 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "787"
+			"plane" "(-62 62 -1) (-62 -62 -1) (62 -62 -1)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -62 62 -1"
+				"point" "1 -62 -62 -1"
+				"point" "2 62 -62 -1"
+				"point" "3 62 62 -1"
+			}
+			"material" "TOOLS/TOOLSBLACK"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "786"
+			"plane" "(-62 -62 -1) (-62 62 -1) (-62 62 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -62 -62 -1"
+				"point" "1 -62 62 -1"
+				"point" "2 -62 62 0"
+				"point" "3 -62 -62 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "785"
+			"plane" "(62 62 -1) (62 -62 -1) (62 -62 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 62 62 -1"
+				"point" "1 62 -62 -1"
+				"point" "2 62 -62 0"
+				"point" "3 62 62 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "784"
+			"plane" "(-62 62 -1) (62 62 -1) (62 62 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -62 62 -1"
+				"point" "1 62 62 -1"
+				"point" "2 62 62 0"
+				"point" "3 -62 62 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "783"
+			"plane" "(62 -62 -1) (-62 -62 -1) (-62 -62 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 62 -62 -1"
+				"point" "1 -62 -62 -1"
+				"point" "2 -62 -62 0"
+				"point" "3 62 -62 0"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "986"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "1"
+	"disablevertexlighting" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"model" "models/props_underground/underground_boxdropper_cage.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"scale" "1 1 1"
+	"skin" "0"
+	"solid" "6"
+	"uniformscale" "1"
+	"origin" "0 0 -96"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "727"
+	"classname" "func_instance_io_proxy"
+	"targetname" "proxy"
+	connections
+	{
+		"OnProxyRelay" "cube_dropperTrigger0-1"
+		"OnProxyRelay" "cube_dropper_autorespawnEnable0-1"
+		"OnProxyRelay" "cube_dropper_autorespawnDisable0-1"
+	}
+	"origin" "0 -1.90735e-06 -136"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "826"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"DefaultAnim" "item_dropper_idle_closed"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"holdanimation" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_underground/underground_boxdropper.mdl"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_prop"
+	"origin" "0 -1.90735e-06 -96"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "830"
+	"classname" "func_brush"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "0 0 -100"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solid" "6"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"StartDisabled" "0"
+	"targetname" "cube_dropper_blocker"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "831"
+		side
+		{
+			"id" "752"
+			"plane" "(-48 -48 -96) (-48 48 -96) (48 48 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 -48 -96"
+				"point" "1 -48 48 -96"
+				"point" "2 48 48 -96"
+				"point" "3 48 -48 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "751"
+			"plane" "(-48 48 -104) (-48 -48 -104) (48 -48 -104)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 48 -104"
+				"point" "1 -48 -48 -104"
+				"point" "2 48 -48 -104"
+				"point" "3 48 48 -104"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "750"
+			"plane" "(-48 -48 -104) (-48 48 -104) (-48 48 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 -48 -104"
+				"point" "1 -48 48 -104"
+				"point" "2 -48 48 -96"
+				"point" "3 -48 -48 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "749"
+			"plane" "(48 48 -104) (48 -48 -104) (48 -48 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 48 -104"
+				"point" "1 48 -48 -104"
+				"point" "2 48 -48 -96"
+				"point" "3 48 48 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "748"
+			"plane" "(-48 48 -104) (48 48 -104) (48 48 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 48 -104"
+				"point" "1 48 48 -104"
+				"point" "2 48 48 -96"
+				"point" "3 -48 48 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "747"
+			"plane" "(48 -48 -104) (-48 -48 -104) (-48 -48 -96)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 -48 -104"
+				"point" "1 -48 -48 -104"
+				"point" "2 -48 -48 -96"
+				"point" "3 48 -48 -96"
+			}
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "838"
+	"classname" "filter_activator_class"
+	"angles" "0 0 0"
+	"filterclass" "prop_monster_box"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "filter_monster_box"
+	"origin" "-32 -32 -136"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "840"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "cube_dropper_retrigger"
+	connections
+	{
+		"OnTrigger" "cube_dropper_loopCancelPending0-1"
+		"OnTrigger" "cube_dropper_dropTrigger0-1"
+	}
+	"origin" "0 48 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "842"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_gate"
+	connections
+	{
+		"OnTrigger" "cube_dropper_loopTrigger0-1"
+		"OnTrigger" "cube_dropper_gateDisable0-1"
+		"OnTrigger" "cube_dropper_boxFireUser10-1"
+	}
+	"origin" "0 16 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "844"
+	"classname" "trigger_multiple"
+	"filtername" "filter_monster_box"
+	"origin" "0 0 -78"
+	"solid" "6"
+	"spawnflags" "8"
+	"StartDisabled" "1"
+	"targetname" "cube_dropper_droptrigger"
+	"wait" "1"
+	connections
+	{
+		"OnEndTouchAll" "cube_dropper_propSetAnimationclose0-1"
+		"OnEndTouchAll" "cube_dropper_box_spawnerForceSpawn2-1"
+		"OnEndTouchAll" "cube_dropper_droptriggerDisable0-1"
+		"OnEndTouchAll" "cube_dropper_retriggerEnable2.5-1"
+		"OnTrigger" "cube_dropper_propSkin02.5-1"
+		"OnEndTouchAll" "cube_dropper_blockerEnable0-1"
+		"OnTrigger" "cube_dropper_boxBecomeMonster0-1"
+	}
+	solid
+	{
+		"id" "845"
+		side
+		{
+			"id" "758"
+			"plane" "(48 -48 0) (-48 -48 0) (-48 48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 -48 0"
+				"point" "1 -48 -48 0"
+				"point" "2 -48 48 0"
+				"point" "3 48 48 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0.00390625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "757"
+			"plane" "(48 48 -156) (-48 48 -156) (-48 -48 -156)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 48 -156"
+				"point" "1 -48 48 -156"
+				"point" "2 -48 -48 -156"
+				"point" "3 48 -48 -156"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0.00390625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "756"
+			"plane" "(-48 48 -156) (48 48 -156) (48 48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 48 -156"
+				"point" "1 48 48 -156"
+				"point" "2 48 48 0"
+				"point" "3 -48 48 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.00390625] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "755"
+			"plane" "(48 -48 -156) (-48 -48 -156) (-48 -48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 -48 -156"
+				"point" "1 -48 -48 -156"
+				"point" "2 -48 -48 0"
+				"point" "3 48 -48 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0.00390625] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "754"
+			"plane" "(48 48 -156) (48 -48 -156) (48 -48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 48 48 -156"
+				"point" "1 48 -48 -156"
+				"point" "2 48 -48 0"
+				"point" "3 48 48 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "753"
+			"plane" "(-48 -48 -156) (-48 48 -156) (-48 48 0)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -48 -48 -156"
+				"point" "1 -48 48 -156"
+				"point" "2 -48 48 0"
+				"point" "3 -48 -48 0"
+			}
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+entity
+{
+	"id" "847"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_drop"
+	connections
+	{
+		"OnTrigger" "cube_dropper_propSetAnimationopen0.1-1"
+		"OnTrigger" "cube_dropper_droptriggerEnable0-1"
+		"OnTrigger" "cube_dropper_retriggerDisable0-1"
+		"OnTrigger" "cube_dropper_gateEnable0-1"
+		"OnTrigger" "cube_dropper_propSkin10-1"
+		"OnTrigger" "cube_dropper_lights_activeTurnOn0-1"
+		"OnTrigger" "cube_dropper_lights_standbyTurnOff0-1"
+		"OnTrigger" "cube_dropper_blockerDisable0.5-1"
+		"OnTrigger" "cube_dropper_boxAddOutputOnUser1 !self:Dissolve::0:10-1"
+	}
+	"origin" "0 64 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "849"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "2"
+	"targetname" "cube_dropper_loop"
+	connections
+	{
+		"OnTrigger" "cube_dropper_retriggerTrigger0-1"
+		"OnTrigger" "cube_dropper_loopTrigger0.5-1"
+	}
+	"origin" "0 32 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "851"
+	"classname" "logic_auto"
+	"angles" "0 0 0"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "cube_dropper_box_spawnerForceSpawn0-1"
+	}
+	"origin" "32 0 -72"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "853"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "cube_dropper_autorespawn"
+	connections
+	{
+		"OnTrigger" "cube_dropper_gateTrigger0-1"
+	}
+	"origin" "16 -1.90735e-06 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "857"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "cube_dropper_box_template"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper_box_spawner"
+	"origin" "0 0 -72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "859"
+	"classname" "point_template"
+	"angles" "0 0 0"
+	"spawnflags" "2"
+	"targetname" "cube_dropper_box_template"
+	"Template01" "cube_dropper_box"
+	"origin" "0 0 -72"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 15500]"
+	}
+}
+entity
+{
+	"id" "866"
+	"classname" "logic_relay"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "cube_dropper"
+	connections
+	{
+		"OnTrigger" "cube_dropper_gateTrigger0-1"
+	}
+	"origin" "0 -1.90735e-06 -120"
+	editor
+	{
+		"color" "0 100 250"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -14768]"
+	}
+}
+entity
+{
+	"id" "873"
+	"classname" "env_cubemap"
+	"origin" "0 -1.90735e-06 -88"
+	editor
+	{
+		"color" "0 0 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[-1.16693 133.333 -110.482]"
+		"look" "[-12.2787 -264.191 -157.903]"
+	}
+	camera
+	{
+		"position" "[-14.7575 -5.70659 -89.759]"
+		"look" "[151.916 40.8345 271.424]"
+	}
+}
+cordons
+{
+	"active" "0"
+	cordon
+	{
+		"name" "cordon"
+		"active" "1"
+		box
+		{
+			"mins" "(-1024 -1024 -1024)"
+			"maxs" "(1024 1024 1024)"
+		}
+	}
+}
