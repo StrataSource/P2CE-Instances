@@ -5,8 +5,7 @@
   </picture>
 </p>
 
-# Portal 2: Community Edition Instances
-This repository contains all instances shipped as part of *Portal 2: Community Edition*.
+This repository contains all VMF instances shipped as part of *Portal 2: Community Edition*.
 
 ## Why?
 Portal 2's instances are good, but not perfect. A lot of mappers edit Portal 2's instances or create their own ones to circumvent certain design decisions. We see P2:CE as an opportunity to rework the instances and make them more powerful, modular and easier to work with.
