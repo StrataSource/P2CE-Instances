@@ -1,0 +1,878 @@
+versioninfo
+{
+	"editorextension" "strata"
+	"editorversion" "400"
+	"editorbuild" "10773"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "1"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+	"nInstanceVisibility" "2"
+	views
+	{
+		v0
+		{
+			"3d" "1"
+			"position" "(-861.331 118.118 -6.05976)"
+			"angle" "[-14.0001 -157.6 0]"
+		}
+		v1
+		{
+			"3d" "0"
+			"position" "(-654.802 -44.8445 65536)"
+			"zoom" "0.62208"
+		}
+		v2
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+		v3
+		{
+			"3d" "0"
+			"position" "(0 0 0)"
+			"zoom" "0.25"
+		}
+	}
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_black_nofog"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	"maxblobcount" "250"
+	"maxprojectedtextures" "8"
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "165 218 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "func_brush"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "-929.16 64.3 -14.5"
+	"parentname" "@sphere"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solid" "6"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "30"
+			"plane" "(-944.662 48.2961 11.5) (-944.662 48.2961 -35.5) (-944.662 80.2961 -35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -944.662 48.2961 11.5"
+				"point" "1 -944.662 48.2961 -35.5"
+				"point" "2 -944.662 80.2961 -35.5"
+				"point" "3 -944.662 80.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 -1 0 61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-913.662 80.2961 11.5) (-913.662 80.2961 -35.5) (-913.662 48.2961 -35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -913.662 80.2961 11.5"
+				"point" "1 -913.662 80.2961 -35.5"
+				"point" "2 -913.662 48.2961 -35.5"
+				"point" "3 -913.662 48.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[0 1 0 -61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-913.662 48.2961 11.5) (-913.662 48.2961 -35.5) (-944.662 48.2961 -35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -913.662 48.2961 11.5"
+				"point" "1 -913.662 48.2961 -35.5"
+				"point" "2 -944.662 48.2961 -35.5"
+				"point" "3 -944.662 48.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-944.662 80.2961 11.5) (-944.662 80.2961 -35.5) (-913.662 80.2961 -35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -944.662 80.2961 11.5"
+				"point" "1 -944.662 80.2961 -35.5"
+				"point" "2 -913.662 80.2961 -35.5"
+				"point" "3 -913.662 80.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-944.662 80.2961 -35.5) (-944.662 48.2961 -35.5) (-913.662 48.2961 -35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -944.662 80.2961 -35.5"
+				"point" "1 -944.662 48.2961 -35.5"
+				"point" "2 -913.662 48.2961 -35.5"
+				"point" "3 -913.662 80.2961 -35.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(-944.662 48.2961 11.5) (-944.662 80.2961 11.5) (-913.662 80.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -944.662 48.2961 11.5"
+				"point" "1 -944.662 80.2961 11.5"
+				"point" "2 -913.662 80.2961 11.5"
+				"point" "3 -913.662 48.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSPLAYERCLIP"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "165 218 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "npc_personality_core"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 -90"
+	"disablereceiveshadows" "0"
+	"DontUseSpeechSemaphore" "0"
+	"fadescale" "1"
+	"flashlightcolor" "255 255 255 500"
+	"flashlightfarz" "750.0f"
+	"flashlightfov" "85.0f"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"model" "models/npcs/personality_sphere/personality_sphere.mdl"
+	"parentname" "spherebot_1_bottom_swivel_1"
+	"physdamagescale" "0.1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "0"
+	"solid" "6"
+	"spawnflags" "516"
+	"targetname" "@sphere"
+	"thinkfunction" "Think"
+	"vscripts" "choreo/sphere_flashlight_tour_choreo.nut"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "-928.782 64.1862 -20.19"
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -47072]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "func_tank"
+	"ammo_count" "-1"
+	"barrel" "0"
+	"barrely" "0"
+	"barrelz" "0"
+	"bullet_damage" "0"
+	"bullet_damage_vs_player" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"effecthandling" "0"
+	"firerate" "1"
+	"firespread" "0"
+	"gun_pitch_pose_center" "0"
+	"gun_yaw_pose_center" "0"
+	"ignoregraceupto" "768"
+	"LeadTarget" "0"
+	"maxRange" "0"
+	"minRange" "0"
+	"origin" "-928.66 63.3 7.5"
+	"parentname" "spherebot_train_1_chassis_1"
+	"persistence" "1"
+	"persistence2" "0"
+	"pitchrange" "0"
+	"pitchrate" "0"
+	"pitchtolerance" "0"
+	"playergraceperiod" "0"
+	"playerlocktimebeforefire" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"ShouldFindNPCs" "1"
+	"solid" "6"
+	"spawnflags" "32769"
+	"spritescale" "1"
+	"targetname" "spherebot_1_top_swivel_1"
+	"yawrange" "360"
+	"yawrate" "500"
+	"yawtolerance" "15"
+	solid
+	{
+		"id" "13"
+		side
+		{
+			"id" "36"
+			"plane" "(-924.343 67.2961 11.5) (-924.343 67.2961 3.5) (-924.343 59.2961 3.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.343 67.2961 11.5"
+				"point" "1 -924.343 67.2961 3.5"
+				"point" "2 -924.343 59.2961 3.5"
+				"point" "3 -924.343 59.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-932.343 59.2961 11.5) (-932.343 59.2961 3.5) (-932.343 67.2961 3.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.343 59.2961 11.5"
+				"point" "1 -932.343 59.2961 3.5"
+				"point" "2 -932.343 67.2961 3.5"
+				"point" "3 -932.343 67.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-932.343 67.2961 11.5) (-932.343 67.2961 3.5) (-924.343 67.2961 3.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.343 67.2961 11.5"
+				"point" "1 -932.343 67.2961 3.5"
+				"point" "2 -924.343 67.2961 3.5"
+				"point" "3 -924.343 67.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(-924.343 59.2961 11.5) (-924.343 59.2961 3.5) (-932.343 59.2961 3.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.343 59.2961 11.5"
+				"point" "1 -924.343 59.2961 3.5"
+				"point" "2 -932.343 59.2961 3.5"
+				"point" "3 -932.343 59.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(-932.343 67.2961 3.5) (-932.343 59.2961 3.5) (-924.343 59.2961 3.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.343 67.2961 3.5"
+				"point" "1 -932.343 59.2961 3.5"
+				"point" "2 -924.343 59.2961 3.5"
+				"point" "3 -924.343 67.2961 3.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(-932.343 59.2961 11.5) (-932.343 67.2961 11.5) (-924.343 67.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.343 59.2961 11.5"
+				"point" "1 -932.343 67.2961 11.5"
+				"point" "2 -924.343 67.2961 11.5"
+				"point" "3 -924.343 59.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "165 218 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 -45572]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "func_tank"
+	"ammo_count" "-1"
+	"barrel" "0"
+	"barrely" "0"
+	"barrelz" "0"
+	"bullet_damage" "0"
+	"bullet_damage_vs_player" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"effecthandling" "0"
+	"firerate" "1"
+	"firespread" "0"
+	"gun_pitch_pose_center" "0"
+	"gun_yaw_pose_center" "0"
+	"ignoregraceupto" "768"
+	"LeadTarget" "0"
+	"maxRange" "0"
+	"minRange" "0"
+	"origin" "-928.66 63.3 -0.5"
+	"parentname" "spherebot_1_top_swivel_1"
+	"persistence" "1"
+	"persistence2" "0"
+	"pitchrange" "360"
+	"pitchrate" "120"
+	"pitchtolerance" "5"
+	"playergraceperiod" "0"
+	"playerlocktimebeforefire" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"ShouldFindNPCs" "1"
+	"solid" "6"
+	"spawnflags" "32769"
+	"spritescale" "1"
+	"targetname" "spherebot_1_bottom_swivel_1"
+	"yawrange" "360"
+	"yawrate" "120"
+	"yawtolerance" "15"
+	solid
+	{
+		"id" "21"
+		side
+		{
+			"id" "42"
+			"plane" "(-932.662 59.2961 -4.18069) (-932.662 67.2961 -4.18069) (-932.662 67.2961 3.81931)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 59.2961 -4.18069"
+				"point" "1 -932.662 67.2961 -4.18069"
+				"point" "2 -932.662 67.2961 3.81931"
+				"point" "3 -932.662 59.2961 3.81931"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41"
+			"plane" "(-924.662 67.2961 -4.18069) (-924.662 59.2961 -4.18069) (-924.662 59.2961 3.81931)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.662 67.2961 -4.18069"
+				"point" "1 -924.662 59.2961 -4.18069"
+				"point" "2 -924.662 59.2961 3.81931"
+				"point" "3 -924.662 67.2961 3.81931"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "40"
+			"plane" "(-932.662 59.2961 3.81931) (-932.662 67.2961 3.81931) (-924.662 67.2961 3.81931)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 59.2961 3.81931"
+				"point" "1 -932.662 67.2961 3.81931"
+				"point" "2 -924.662 67.2961 3.81931"
+				"point" "3 -924.662 59.2961 3.81931"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "39"
+			"plane" "(-932.662 67.2961 -4.18069) (-932.662 59.2961 -4.18069) (-924.662 59.2961 -4.18069)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 67.2961 -4.18069"
+				"point" "1 -932.662 59.2961 -4.18069"
+				"point" "2 -924.662 59.2961 -4.18069"
+				"point" "3 -924.662 67.2961 -4.18069"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "38"
+			"plane" "(-924.662 59.2961 3.81931) (-924.662 59.2961 -4.18069) (-932.662 59.2961 -4.18069)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.662 59.2961 3.81931"
+				"point" "1 -924.662 59.2961 -4.18069"
+				"point" "2 -932.662 59.2961 -4.18069"
+				"point" "3 -932.662 59.2961 3.81931"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "37"
+			"plane" "(-932.662 67.2961 3.81931) (-932.662 67.2961 -4.18069) (-924.662 67.2961 -4.18069)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 67.2961 3.81931"
+				"point" "1 -932.662 67.2961 -4.18069"
+				"point" "2 -924.662 67.2961 -4.18069"
+				"point" "3 -924.662 67.2961 3.81931"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "165 218 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 16000]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "func_tracktrain"
+	"bank" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"height" "0"
+	"MoveSound" "Sphere.RailTravelMove"
+	"MoveSoundMaxPitch" "200"
+	"MoveSoundMaxTime" "0"
+	"MoveSoundMinPitch" "60"
+	"MoveSoundMinTime" "0"
+	"orientationtype" "0"
+	"origin" "-928.66 63.3 27.5"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solid" "6"
+	"spawnflags" "16"
+	"speed" "0"
+	"startspeed" "250"
+	"StopSound" "d3_citadel.podarm_move_stop"
+	"target" "spherebot_entry_1_path_1"
+	"targetname" "spherebot_train_1_chassis_1"
+	"velocitytype" "0"
+	"volume" "10"
+	"wheels" "10"
+	solid
+	{
+		"id" "29"
+		side
+		{
+			"id" "48"
+			"plane" "(-932.662 59.2961 35.5) (-932.662 59.2961 11.5) (-932.662 67.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 59.2961 35.5"
+				"point" "1 -932.662 59.2961 11.5"
+				"point" "2 -932.662 67.2961 11.5"
+				"point" "3 -932.662 67.2961 35.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-924.662 67.2961 35.5) (-924.662 67.2961 11.5) (-924.662 59.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.662 67.2961 35.5"
+				"point" "1 -924.662 67.2961 11.5"
+				"point" "2 -924.662 59.2961 11.5"
+				"point" "3 -924.662 59.2961 35.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -61.1846] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-924.662 59.2961 35.5) (-924.662 59.2961 11.5) (-932.662 59.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -924.662 59.2961 35.5"
+				"point" "1 -924.662 59.2961 11.5"
+				"point" "2 -932.662 59.2961 11.5"
+				"point" "3 -932.662 59.2961 35.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-932.662 67.2961 35.5) (-932.662 67.2961 11.5) (-924.662 67.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 67.2961 35.5"
+				"point" "1 -932.662 67.2961 11.5"
+				"point" "2 -924.662 67.2961 11.5"
+				"point" "3 -924.662 67.2961 35.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 0 -1 -50] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-932.662 67.2961 11.5) (-932.662 59.2961 11.5) (-924.662 59.2961 11.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 67.2961 11.5"
+				"point" "1 -932.662 59.2961 11.5"
+				"point" "2 -924.662 59.2961 11.5"
+				"point" "3 -924.662 67.2961 11.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-932.662 59.2961 35.5) (-932.662 67.2961 35.5) (-924.662 67.2961 35.5)"
+			point_data
+			{
+				"numpts" "4"
+				"point" "0 -932.662 59.2961 35.5"
+				"point" "1 -932.662 67.2961 35.5"
+				"point" "2 -924.662 67.2961 35.5"
+				"point" "3 -924.662 59.2961 35.5"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -29.3518] 0.25"
+			"vaxis" "[0 -1 0 61.1846] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "165 218 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -30072]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 -90"
+	"animateeveryframe" "1"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/npcs/personality_sphere/management_rail_ball.mdl"
+	"modelscale" "1"
+	"parentname" "spherebot_1_bottom_swivel_1"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "-928.662 63.2961 -8.51801"
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -572]"
+	}
+}
+entity
+{
+	"id" "39"
+	"classname" "prop_dynamic"
+	"AllowSilentDissolve" "1"
+	"angles" "0 270 0"
+	"animateeveryframe" "1"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/npcs/personality_sphere/management_rail_stick.mdl"
+	"modelscale" "1"
+	"parentname" "spherebot_train_1_chassis_1"
+	"PerformanceMode" "0"
+	"physdamagescale" "1.0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"origin" "-928.662 63.2961 -8.51801"
+	editor
+	{
+		"color" "165 218 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
